@@ -1,4 +1,7 @@
+VLSI-EX-03
+
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+
 **AIM: **
   To simulate and synthesis multiplier using Xilinx ISE.
 
@@ -22,12 +25,6 @@ STEP:7 compare the output with truth table. Logic Diagram 2 bit Multiplier
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
-
-**4 Bit Multiplier**
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
 **Verilog code**
 ## 2 bit multiplier:
 module ha(a,b,sum,c);
@@ -57,6 +54,12 @@ ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
 ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
+## 2 bit multiplier:
+![image](https://github.com/SuryaChakradhar/VLSI-LAB-EXP-3/assets/161815325/e93c3ea2-dde5-45fa-bce7-293e4c08fee2)
+**4 Bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
+
 ## 4 bit multipler:
 module ha(a,b,c,s);
 
@@ -122,18 +125,15 @@ fa fa7(w[14],x[2]&y[3],w[16],z[5],w[17]);
 
 fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
-endmodule Output Waveform
+endmodule
+## Output Waveform
 
-## 2 bit multiplier:
-![image](https://github.com/SuryaChakradhar/VLSI-LAB-EXP-3/assets/161815325/e93c3ea2-dde5-45fa-bce7-293e4c08fee2)
 ## 4 bit multiplier:
 ![image](https://github.com/SuryaChakradhar/VLSI-LAB-EXP-3/assets/161815325/d63500b5-5a7f-47e1-9543-c1367405b9ba)
 ## Result
 
 Thus,the simulation and synthesis of multipliers by using vivado has been successfully excecuted and verified.
 
-
-**Result**
 
 
 
